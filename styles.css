@@ -1,62 +1,73 @@
 body{
-		background-image: url(main.png)
-}
-#survey-form{
-  display: flex;
-  flex-direction: column;
-	align-items: center;
+		background: linear-gradient(to top right, #33ccff 0%, #ff5050 100%);
+		background-repeat: no-repeat;
+		font-family: 'Rubik', sans-serif;
+		color: black;
 }
 
-#name{
-	width: 60%;
-	height: 45px;
-	font-size: 100%;
-}
+	#title{
+		display: flex;
+		justify-content: center;
+	}
 
-#email{
-	width: 60%;
-	height: 45px;
-	padding: 12px 12px;
-	font-size: 100%;
-}
+	#survey-form{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
-#number{
+	#name{
+		width: 60%;
+		height: 45px;
+		font-size: 100%;
+	}
+
+	#email{
 		width: 60%;
 		height: 45px;
 		padding: 12px 12px;
 		font-size: 100%;
-}
+	}
 
-#submit{
-		width: 15%;
-		height: 200px;
-		padding: 12px 12px;
-		font-size: 100%;
-}
+	#number{
+			width: 60%;
+			height: 45px;
+			padding: 12px 12px;
+			font-size: 100%;
+	}
 
-
-input{
-		outline: none;
-		padding: 12px 12px;
-}
-
-::placeholder{
-		font-size: 120%;
-}
-
-#submit{
-	margin: 25px;
-}
+	#submit{
+			width: 15%;
+			height: 200px;
+			padding: 12px 12px;
+			font-size: 100%;
+	}
 
 
-#name-label{
-	margin: 10px;
-}
+	input{
+			outline: none;
+			padding: 12px 12px;
+	}
 
-#email-label{
-	margin: 10px;
-}
+	::placeholder{
+			font-size: 120%;
+	}
 
-#number-label{
-	margin: 10px;
-}
+	#submit{
+		margin: 25px;
+	}
+
+
+	#name-label{
+		margin: 10px;
+	}
+
+	#email-label{
+		margin: 10px;
+	}
+
+	#number-label{
+		margin: 10px;
+	}
+
+
